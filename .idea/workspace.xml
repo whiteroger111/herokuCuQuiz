@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a2095035-192b-4e58-aa4a-e3a0a0aadb3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CuQuizFinal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CuQuizFinal/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DjangoQuizzes/django_blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -159,6 +156,9 @@
       <workItem from="1590352717522" duration="5123000" />
       <workItem from="1590414990216" duration="4801000" />
       <workItem from="1590420309017" duration="1521000" />
+      <workItem from="1590442048460" duration="14000" />
+      <workItem from="1590442070670" duration="33000" />
+      <workItem from="1590442228356" duration="25000" />
     </task>
     <servers />
   </component>
@@ -188,15 +188,15 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590419148607" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1590314259666">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1590442057902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590314259666" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1590421266006">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590442057902" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1590442097203">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590421266006" />
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590351462253" />
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590442097203" />
     <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1590421716756">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -229,25 +229,25 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.1.right/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590354426958" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1590352750664">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1590442253689">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="167" key="SettingsEditor/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590352750664" />
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590351579433" />
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1590352721880">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590442253689" />
+    <state x="656" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1590442341551">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="349" key="com.intellij.ide.util.TipDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590352721880" />
-    <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590351024472" />
+    <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590442341551" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590314267839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590314267839" />
-    <state x="84" y="2" width="1726" height="1022" key="find.popup" timestamp="1590419131718">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="812" y="2" width="607" height="1013" key="find.popup" timestamp="1590442232620">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="84" y="2" width="1726" height="1022" key="find.popup/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590419131718" />
-    <state x="812" y="2" width="607" height="1013" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590352095340" />
+    <state x="812" y="2" width="607" height="1013" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590442232620" />
     <state x="701" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1590356588099">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
