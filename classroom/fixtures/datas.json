@@ -1,0 +1,29 @@
+[
+    {"model": "classroom.question", "pk": 1, "fields": {"quiz": 1, "text": "მეორე მსოფლიო ომის თარიღია? "}},
+    {"model": "classroom.question", "pk": 2, "fields": {"quiz": 1, "text": "საქართველოს პირველი პრეზიდენტი იყო "}},
+    {"model": "classroom.question", "pk": 3, "fields": {"quiz": 1, "text": "მე პატარა ქართველი ვარ ... "}},
+    {"model": "classroom.question", "pk": 4, "fields": {"quiz": 1, "text": "რომელი ზღვა ესაზღვრება საქართველოს "}},
+
+    {"model": "classroom.answer", "pk": 1, "fields": {"question": 1, "text": "1939-1945", "is_correct": true}},
+    {"model": "classroom.answer", "pk": 2, "fields": {"question": 1, "text": "1938-1945", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 3, "fields": {"question": 1, "text": "1914-1918", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 4, "fields": {"question": 1, "text": "1914-1945", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 5, "fields": {"question": 2, "text": "გიორგი მარგველაშვილი", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 6, "fields": {"question": 2, "text": "ზვიად გამსახურდია", "is_correct": true}},
+    {"model": "classroom.answer", "pk": 7, "fields": {"question": 2, "text": "მიხეილ სააკაშვილი", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 8, "fields": {"question": 2, "text": "სალომე ზურაბიშვილი", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 9, "fields": {"question": 3, "text": "კავკასიის მთების შვილი", "is_correct": true}},
+    {"model": "classroom.answer", "pk": 10, "fields": {"question": 3, "text": "შვილი კავკასიის მთებისა", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 11, "fields": {"question": 3, "text": "ვიყავი და ვიქნები კიდეც", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 12, "fields": {"question": 3, "text": "მარადჟამს", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 13, "fields": {"question": 4, "text": "კასპიის", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 14, "fields": {"question": 4, "text": "შავი", "is_correct": true}},
+    {"model": "classroom.answer", "pk": 15, "fields": {"question": 4, "text": "ხმელთაშუა", "is_correct": false}},
+    {"model": "classroom.answer", "pk": 16, "fields": {"question": 4, "text": "არცერთი", "is_correct": false}},
+
+    {"model": "classroom.quiz", "pk": 1, "fields": {"owner": 1, "name": "ზოგადი", "subject": 5}},
+
+
+    {"model": "classroom.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$180000$og6o8PzLsRNC$/Ay4/y7/plwM2t3MGrzUoGvTKCqRlrSYmCwrkL9VrVY=", "last_login": "2020-05-20T10:10:24.490Z", "is_superuser": true, "username": "teacher", "first_name": "Teacher", "last_name": "", "email": "", "is_staff": true, "is_active": true, "date_joined": "2020-05-20T05:05:24.014Z", "is_student": false, "is_teacher": true, "groups": [], "user_permissions": []}}
+
+]
