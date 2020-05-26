@@ -123,7 +123,7 @@ def take_quiz(request, pk):
     student = request.user.student
 
     if student.quizzes.filter(pk=pk).exists():
-        return render(request, 'students/taken_quiz.html')
+        return render(request, 'classroom/students/quiz_list.html')
 
     total_questions = quiz.questions.count()
     unanswered_questions = student.get_unanswered_questions(quiz)

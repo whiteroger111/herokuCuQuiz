@@ -14,10 +14,6 @@
   <h2 class="mb-3">{{ quiz.name }} შეფასება</h2>
 
   <div class="card">
-    <div class="card-header">
-      <strong>ჩატარებული ქვიზები</strong>
-      <span class="badge badge-pill badge-primary float-right">საშუალო ქულა: {{ quiz_score.average_score|default_if_none:0.0 }}</span>
-    </div>
     <table class="table mb-0">
       <thead>
         <tr>
@@ -39,6 +35,7 @@
     </table>
     <div class="card-footer text-muted">
       სულ მონაწილეობა მიიღო: <strong>{{ total_taken_quizzes }}</strong>
+        <strong><span style="font-size:15px" class="badge badge-pill badge-primary float-right">საშუალო ქულა: {{ quiz_score.average_score|default_if_none:0.0 }}</span></strong>
     </div>
   </div>
 {% endblock %}
