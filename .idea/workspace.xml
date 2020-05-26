@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2095035-192b-4e58-aa4a-e3a0a0aadb3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CuQuizFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CuQuizFinal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/_header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/student_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/quiz_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/quiz_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_change_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_change_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/views/teachers.py" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/views/teachers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,21 +43,21 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DjangoQuizzes/django_blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/classroom/templates/classroom/teachers" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gio\Desktop\Projects\Django\CUQuiz\classroom\templates\classroom\teachers" />
+      <recent name="C:\Users\white\Desktop\sadiplomo axali\CUQuiz\chromedriver" />
+      <recent name="C:\Users\Gio\Desktop\Projects\Django\cuQuizFinal\CuQuizFinal" />
+      <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal\classroom\migrations" />
+      <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gio\Desktop\cuQuizFinal\classroom\migrations" />
       <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal\classroom\migrations" />
       <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal\classroom" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\white\Desktop\sadiplomo axali\CUQuiz\chromedriver" />
-      <recent name="C:\Users\Gio\Desktop\Projects\Django\CUQuiz\classroom\templates\classroom\teachers" />
-      <recent name="C:\Users\Gio\Desktop\Projects\Django\cuQuizFinal\CuQuizFinal" />
-      <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal\classroom\migrations" />
-      <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.CuQuizFinal">
@@ -168,7 +171,7 @@
       <workItem from="1590445969817" duration="9628000" />
       <workItem from="1590481211914" duration="2571000" />
       <workItem from="1590484439959" duration="10311000" />
-      <workItem from="1590497147789" duration="1126000" />
+      <workItem from="1590497147789" duration="3191000" />
     </task>
     <servers />
   </component>
@@ -198,32 +201,32 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590419148607" />
-    <state x="648" y="167" key="CommitChangelistDialog2" timestamp="1590498682747">
+    <state x="648" y="167" key="CommitChangelistDialog2" timestamp="1590498861459">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="648" y="167" key="CommitChangelistDialog2/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590498682747" />
+    <state x="648" y="167" key="CommitChangelistDialog2/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590498861459" />
     <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590442057902" />
     <state x="609" y="418" key="FileChooserDialogImpl" timestamp="1590497305580">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="609" y="418" key="FileChooserDialogImpl/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590497305580" />
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590442097203" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1590482936458">
+    <state width="1877" height="180" key="GridCell.Tab.0.bottom" timestamp="1590498872312">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590482936458" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1590482936458">
+    <state width="1877" height="180" key="GridCell.Tab.0.bottom/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590498872312" />
+    <state width="1877" height="180" key="GridCell.Tab.0.center" timestamp="1590498872312">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590482936458" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1590482936457">
+    <state width="1877" height="180" key="GridCell.Tab.0.center/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590498872312" />
+    <state width="1877" height="180" key="GridCell.Tab.0.left" timestamp="1590498872311">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590482936457" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1590482936458">
+    <state width="1877" height="180" key="GridCell.Tab.0.left/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590498872311" />
+    <state width="1877" height="180" key="GridCell.Tab.0.right" timestamp="1590498872312">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590482936458" />
+    <state width="1877" height="180" key="GridCell.Tab.0.right/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590498872312" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1590354426959">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -258,19 +261,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1590495472885" />
-    <state x="812" y="2" width="607" height="1013" key="find.popup" timestamp="1590495596843">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="84" y="2" width="1726" height="1022" key="find.popup" timestamp="1590500741645">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="84" y="2" width="1726" height="1022" key="find.popup/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590453144620" />
+    <state x="84" y="2" width="1726" height="1022" key="find.popup/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590500741645" />
     <state x="812" y="2" width="607" height="1013" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590495596843" />
     <state x="701" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1590356588099">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="701" y="168" key="refactoring.ChangeSignatureDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590356588099" />
-    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup" timestamp="1590357683489">
+    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup" timestamp="1590498831247">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590357683489" />
+    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590498831247" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590332151210" />
   </component>
   <component name="XDebuggerManager">

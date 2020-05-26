@@ -232,3 +232,23 @@ class QuestionDeleteView(DeleteView):
     def get_success_url(self):
         question = self.get_object()
         return reverse('teachers:quiz_change', kwargs={'pk': question.quiz_id})
+
+@method_decorator([login_required, teacher_required()], name='dispatch')
+class StudentList(ListView):
+    # model = get_user_model()
+    paginate_by = 36
+    template_name = 'classroom/teachers/student_list.html'
+    context_object_name = 'students'
+
+    def get_queryset(self):
+        query = self.request.GET.get('q', '')
+        User = get_user_model()
+
+        queryset = Student.objects.order_by('-score')
+        if query:
+            # queryset = queryset.annotate(
+            #     full_name = Concat('first_name','last_name')
+            # ).filter(full_name__icontains = query)
+            queryset = queryset.filter(user__username__icontains=query)
+        return queryset
+

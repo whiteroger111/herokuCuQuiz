@@ -1,0 +1,8 @@
+<ul class="nav nav-tabs mb-3">
+  <li class="nav-item">
+    <a class="nav-link{% if active == 'taken' %} active{% endif %}" href="{% url 'teachers:quiz_change_list' %}">ქვიზები</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link{% if active == 'students' %} active{% endif %}" href="{% url 'teachers:student_list' %}">სტუდენტები</a>
+  </li>
+</ul>
