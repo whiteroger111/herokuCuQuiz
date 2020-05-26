@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2095035-192b-4e58-aa4a-e3a0a0aadb3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/AddQuiz/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/AddQuiz/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/AddQuiz/test_add_quiz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Pages/addQuizPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/RegistrationTest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/RegistrationTest/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/RegistrationTest/test_registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CuQuizFinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CuQuizFinal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/LoginTest/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/LoginTest/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Pages/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Pages/loginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/views/teachers.py" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/views/teachers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/quiz_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/quiz_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +40,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chromedriver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DjangoQuizzes/django_blog" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -178,6 +168,7 @@
       <workItem from="1590445969817" duration="9628000" />
       <workItem from="1590481211914" duration="2571000" />
       <workItem from="1590484439959" duration="10311000" />
+      <workItem from="1590497147789" duration="1126000" />
     </task>
     <servers />
   </component>
@@ -207,14 +198,15 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590419148607" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1590442057902">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590442057902" />
-    <state x="609" y="418" key="FileChooserDialogImpl" timestamp="1590445394036">
+    <state x="648" y="167" key="CommitChangelistDialog2" timestamp="1590498682747">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="609" y="418" key="FileChooserDialogImpl/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590445394036" />
+    <state x="648" y="167" key="CommitChangelistDialog2/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590498682747" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590442057902" />
+    <state x="609" y="418" key="FileChooserDialogImpl" timestamp="1590497305580">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="609" y="418" key="FileChooserDialogImpl/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590497305580" />
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590442097203" />
     <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1590482936458">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -248,15 +240,15 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.1.right/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590354426958" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1590486797068">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1590497183004">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="167" key="SettingsEditor/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590445996936" />
+    <state x="461" y="167" key="SettingsEditor/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590497183004" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590486797068" />
-    <state x="656" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1590484763828">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1590497150829">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590481211813" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590497150829" />
     <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590484763828" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590314267839">
       <screen x="0" y="0" width="1920" height="1040" />

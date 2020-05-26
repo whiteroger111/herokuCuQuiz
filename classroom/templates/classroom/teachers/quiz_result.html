@@ -4,7 +4,8 @@
 {% block content %}
 {% include 'classroom/students/_header.html' with active='taken' %}
 
-<h2>{{quiz.name}}</h2>
+<h2>დასახელება: {{quiz.name}}</h2>
+<h2>მოსწავლე: {{student}}</h2>
 {{ quiz.subject.get_html_badge }}
 
 <div class="progress">
@@ -15,7 +16,7 @@
   <div class="card-body">
     <h5 class="card-title">{{forloop.counter}}. {{question.text}}</h5>
     <table class="table table-bordered table-sm">
-      <thead><tr><th>შენი</th><th>სწორი</th><th></th></tr></thead>
+      <thead><tr><th>მოსწავლის</th><th>სწორი</th><th></th></tr></thead>
       <tbody>
         {% for opt in question.answers.all %}
         {% marked_answerForTeacher student opt as opt_marked %}
