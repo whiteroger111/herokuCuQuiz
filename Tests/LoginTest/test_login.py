@@ -1,6 +1,7 @@
 import time
 from selenium import webdriver
 from Tests.Pages.loginPage import LoginPage
+from Tests.Pages.addQuizPage import AddQuizPage
 
 
 class Test_Login:
@@ -11,9 +12,7 @@ class Test_Login:
         self.driver.get('http://127.0.0.1:8000/')
         loginP = LoginPage(self.driver)
         loginP.click_on_login_button()
-
         loginP.enter_username('Nika2')
-
         loginP.enter_password('ZARNzarn123')
-
         loginP.confirm_login_button()
+

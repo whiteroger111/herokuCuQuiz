@@ -127,6 +127,7 @@ class QuizResultsView(DetailView):
         return self.request.user.quizzes.all()
 
 
+@method_decorator([login_required, teacher_required()], name='dispatch')
 class QuizResultsStudentView(View):
     template_name = 'classroom/teachers/quiz_result.html'
 
