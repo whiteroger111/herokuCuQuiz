@@ -6,14 +6,26 @@ import hashlib
 
 register = template.Library()
 
+
 @register.simple_tag
-def marked_answer(user,opt):
-    studentanswer = StudentAnswer.objects.filter(student=user.student, answer =opt)
+def marked_answer(user, opt):
+    studentanswer = StudentAnswer.objects.filter(student=user.student, answer=opt)
     if studentanswer:
         if opt.is_correct:
             return 'correct'
         return 'wrong'
     return ''
+
+
+@register.simple_tag
+def marked_answerForTeacher(student, opt):
+    studentanswer = StudentAnswer.objects.filter(student=student, answer=opt)
+    if studentanswer:
+        if opt.is_correct:
+            return 'correct'
+        return 'wrong'
+    return ''
+
 
 @register.filter
 def gravatar_url(username, size=40):
@@ -21,10 +33,11 @@ def gravatar_url(username, size=40):
     username_hash = hashlib.md5(username.lower().encode('utf-8')).hexdigest()
     return f"https://www.gravatar.com/avatar/{username_hash}?s={size}&d=identicon"
 
+
 @register.filter
 def top_subject(taken_quizzes):
     subjects = taken_quizzes.values('quiz__subject__name') \
-        .annotate(score = Sum('score')) \
+        .annotate(score=Sum('score')) \
         .order_by('-score')
     if subjects:
         name = subjects[0]['quiz__subject__name']

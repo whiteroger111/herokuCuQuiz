@@ -14,7 +14,9 @@ from django.views.generic import (CreateView, DeleteView, DetailView, ListView,
 
 from ..decorators import teacher_required
 from ..forms import BaseAnswerInlineFormSet, QuestionForm, TeacherSignUpForm
-from ..models import Answer, Question, Quiz
+from ..models import Answer, Question, Quiz, TakenQuiz, Student
+from django.views import View
+import logging
 
 User = get_user_model()
 
@@ -123,6 +125,20 @@ class QuizResultsView(DetailView):
 
     def get_queryset(self):
         return self.request.user.quizzes.all()
+
+
+class QuizResultsStudentView(View):
+    template_name = 'classroom/teachers/quiz_result.html'
+
+    def get(self, request, *args, **kwargs):
+        quiz = Quiz.objects.get(id=kwargs['pk'])
+        student = Student.objects.get(user=kwargs['student_pk'])
+
+        taken_quiz = TakenQuiz.objects.filter(student=student, quiz=quiz)
+        questions = Question.objects.filter(quiz=quiz)
+        return render(request, self.template_name, {'questions': questions,
+                                                    'quiz': quiz, 'percentage': taken_quiz[0].percentage,
+                                                    'student': student})
 
 
 @login_required

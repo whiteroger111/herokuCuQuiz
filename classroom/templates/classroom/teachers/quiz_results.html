@@ -28,7 +28,8 @@
       <tbody>
         {% for taken_quiz in taken_quizzes %}
           <tr>
-            <td>{{ taken_quiz.student.user.username }}</td>
+            <td><a href="{% url 'teachers:quiz_results_student' taken_quiz.quiz.id taken_quiz.student.user.id %}"
+                   class="btn btn-primary">{{ taken_quiz.student.user.username }}</a></td>
             <td>{{ taken_quiz.date|naturaltime }}</td>
             <td>{{ taken_quiz.percentage }}</td>
           </tr>
