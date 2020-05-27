@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{% block title %}Cu Quiz Final{% endblock %}</title>
+    <title>{% block title %}𝐂𝐮 𝐐𝐮𝐢𝐳 𝐅𝐢𝐧𝐚𝐥{% endblock %}</title>
     <link rel="icon" href="{% static 'img/favicon.png' %}">
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/app.css' %}">
@@ -19,17 +19,17 @@
     <div class="container my-4">
       <div class="row justify-content-center">
         <div class="col-md-10 col-sm-12">
-          <div class="row">
+          <div class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-radius: .25rem;">
             <div class="col-6">
               <h1 class="logo">
                 <a href="{% url 'home' %}">
-                  Cu Quiz Final
+                    <p style="color:white">𝐂𝐮 𝐐𝐮𝐢𝐳 𝐅𝐢𝐧𝐚𝐥</p>
                 </a>
               </h1>
             </div>
             <div class="col-6 text-right">
               {% if user.is_authenticated %}
-                <p class="pt-3"><strong>{{ user.username }}{% if user.is_student %} - {{user.student.score}}{% endif %}</strong> | <a href="{% url 'logout' %}">გამოსვლა</a>.</p>
+                <p class="pt-3"><strong style="color: white">{{ user.username }}{% if user.is_student %} - {{user.student.score}}{% endif %}</strong> | <a href="{% url 'logout' %}">გამოსვლა</a>.</p>
               {% else %}
                 <a href="{% url 'login' %}" class="btn btn-light" role="button">შესვლა</a>
                 <a href="{% url 'signup' %}" class="btn btn-primary" role="button">რეგისტრაცია</a>
@@ -48,7 +48,7 @@
             </div>
           </div>
           <footer>
-            <a href="https://cu.edu.ge">cu.edu.ge</a>
+            <strong><a style="color: #007bff" href="https://cu.edu.ge">𝙘𝙪.𝙚𝙙𝙪.𝙜𝙚</a></strong>
           </footer>
         </div>
       </div>

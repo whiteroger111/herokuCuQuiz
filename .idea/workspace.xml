@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a2095035-192b-4e58-aa4a-e3a0a0aadb3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_change_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_change_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/views/students.py" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/views/students.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,31 +33,30 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/classroom/templates/classroom/teachers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Gio\Desktop\Projects\Django\CUQuiz\classroom\templates\classroom\teachers" />
-      <recent name="C:\Users\white\Desktop\sadiplomo axali\CUQuiz\chromedriver" />
-      <recent name="C:\Users\Gio\Desktop\Projects\Django\cuQuizFinal\CuQuizFinal" />
-      <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal\classroom\migrations" />
-      <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gio\Desktop\cuQuizFinal\classroom\migrations" />
       <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal\classroom\migrations" />
       <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal\classroom" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gio\Desktop\Projects\Django\CUQuiz\static\img" />
+      <recent name="C:\Users\Gio\Desktop\Projects\Django\CUQuiz\classroom\templates\classroom\teachers" />
+      <recent name="C:\Users\white\Desktop\sadiplomo axali\CUQuiz\chromedriver" />
+      <recent name="C:\Users\Gio\Desktop\Projects\Django\cuQuizFinal\CuQuizFinal" />
+      <recent name="C:\Users\Gio\Desktop\Projects\Django\CuQuizFinal\classroom\migrations" />
+    </key>
   </component>
-  <component name="RunManager" selected="Django server.CuQuizFinal">
+  <component name="RunManager" selected="Django Server.CuQuizFinal">
     <configuration name="Test: classroom.migrations" type="DjangoTestsConfigurationType" temporary="true">
       <module name="CuQuizFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,11 +170,15 @@
       <workItem from="1590497147789" duration="3604000" />
       <workItem from="1590519417960" duration="305000" />
       <workItem from="1590526954684" duration="5346000" />
+      <workItem from="1590572513757" duration="111000" />
+      <workItem from="1590583266103" duration="66000" />
+      <workItem from="1590584464342" duration="103000" />
+      <workItem from="1590585183746" duration="2644000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -199,32 +203,36 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590419148607" />
-    <state x="648" y="167" key="CommitChangelistDialog2" timestamp="1590498861459">
+    <state x="648" y="167" key="CommitChangelistDialog2" timestamp="1590587825579">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="648" y="167" key="CommitChangelistDialog2/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590498861459" />
+    <state x="648" y="167" key="CommitChangelistDialog2/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590587825579" />
     <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590442057902" />
-    <state x="609" y="418" key="FileChooserDialogImpl" timestamp="1590497305580">
+    <state x="247" y="161" key="DiffContextDialog" timestamp="1590587819254">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="609" y="418" key="FileChooserDialogImpl/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590497305580" />
+    <state x="247" y="161" key="DiffContextDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590587819254" />
+    <state x="609" y="418" key="FileChooserDialogImpl" timestamp="1590585616331">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="609" y="418" key="FileChooserDialogImpl/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590585616331" />
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590442097203" />
-    <state width="1877" height="180" key="GridCell.Tab.0.bottom" timestamp="1590532039928">
+    <state width="1877" height="180" key="GridCell.Tab.0.bottom" timestamp="1590585841782">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="180" key="GridCell.Tab.0.bottom/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590532039928" />
-    <state width="1877" height="180" key="GridCell.Tab.0.center" timestamp="1590532039928">
+    <state width="1877" height="180" key="GridCell.Tab.0.bottom/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590585841782" />
+    <state width="1877" height="180" key="GridCell.Tab.0.center" timestamp="1590585841782">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="180" key="GridCell.Tab.0.center/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590532039928" />
-    <state width="1877" height="180" key="GridCell.Tab.0.left" timestamp="1590532039928">
+    <state width="1877" height="180" key="GridCell.Tab.0.center/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590585841782" />
+    <state width="1877" height="180" key="GridCell.Tab.0.left" timestamp="1590585841782">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="180" key="GridCell.Tab.0.left/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590532039928" />
-    <state width="1877" height="180" key="GridCell.Tab.0.right" timestamp="1590532039928">
+    <state width="1877" height="180" key="GridCell.Tab.0.left/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590585841782" />
+    <state width="1877" height="180" key="GridCell.Tab.0.right" timestamp="1590585841782">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="180" key="GridCell.Tab.0.right/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590532039928" />
+    <state width="1877" height="180" key="GridCell.Tab.0.right/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590585841782" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1590354426959">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -259,10 +267,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1590495472885" />
-    <state x="84" y="2" width="1726" height="1022" key="find.popup" timestamp="1590531534718">
+    <state x="918" y="109" width="557" height="602" key="find.popup" timestamp="1590587744273">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="84" y="2" width="1726" height="1022" key="find.popup/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590531534718" />
+    <state x="918" y="109" width="557" height="602" key="find.popup/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590587744273" />
     <state x="812" y="2" width="607" height="1013" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590495596843" />
     <state x="701" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1590356588099">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -285,7 +293,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CuQuizFinal$0002_create_initial_subjects.coverage" NAME="0002_create_initial_subjects Coverage Results" MODIFIED="1590238505414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classroom/migrations" />
     <SUITE FILE_PATH="coverage/CuQuizFinal$Test__classroom_migrations.coverage" NAME="Test: classroom.migrations Coverage Results" MODIFIED="1590238656938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CuQuizFinal$0002_create_initial_subjects.coverage" NAME="0002_create_initial_subjects Coverage Results" MODIFIED="1590238505414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classroom/migrations" />
   </component>
 </project>
