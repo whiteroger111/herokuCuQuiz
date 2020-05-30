@@ -3,39 +3,47 @@
 {% load crispy_forms_tags humanize %}
 
 {% block content %}
-    {% include 'classroom/teachers/_header.html' with active='students' %}
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="{% url 'teachers:quiz_change_list' %}">ჩემი ქვიზები</a></li>
-      <li class="breadcrumb-item"><a href="{% url 'teachers:quiz_change' quiz.pk %}">{{ quiz.name }}</a></li>
-      <li class="breadcrumb-item active" aria-current="page">შეფასება</li>
-    </ol>
-  </nav>
-  <h2 class="mb-3">{{ quiz.name }} შეფასება</h2>
+    <div style="display: flex;">
+        <div>
+            {% include 'classroom/teachers/_header.html' with active='new' %}
+        </div>
+        <div style="width: 100%">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{% url 'teachers:quiz_change_list' %}">ჩემი ქვიზები</a></li>
+                    <li class="breadcrumb-item"><a href="{% url 'teachers:quiz_change' quiz.pk %}">{{ quiz.name }}</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">შეფასება</li>
+                </ol>
+            </nav>
+            <h2 class="mb-3">{{ quiz.name }} შეფასება</h2>
 
-  <div class="card">
-    <table class="table mb-0">
-      <thead>
-        <tr>
-          <th>სტუდენტი</th>
-          <th>თარიღი</th>
-          <th>პროცენტულობა</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for taken_quiz in taken_quizzes %}
-          <tr>
-            <td><a href="{% url 'teachers:quiz_results_student' taken_quiz.quiz.id taken_quiz.student.user.id %}"
-                   class="btn btn-primary">{{ taken_quiz.student.user.username }}</a></td>
-            <td>{{ taken_quiz.date|naturaltime }}</td>
-            <td>{{ taken_quiz.percentage }}</td>
-          </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-    <div class="card-footer text-muted">
-      სულ მონაწილეობა მიიღო: <strong>{{ total_taken_quizzes }}</strong>
-        <strong><span style="font-size:15px" class="badge badge-pill badge-primary float-right">საშუალო ქულა: {{ quiz_score.average_score|default_if_none:0.0 }}</span></strong>
+            <div class="card">
+                <table class="table mb-0">
+                    <thead>
+                    <tr>
+                        <th>სტუდენტი</th>
+                        <th>თარიღი</th>
+                        <th>პროცენტულობა</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for taken_quiz in taken_quizzes %}
+                        <tr>
+                            <td>
+                                <a href="{% url 'teachers:quiz_results_student' taken_quiz.quiz.id taken_quiz.student.user.id %}"
+                                   class="btn btn-primary">{{ taken_quiz.student.user.username }}</a></td>
+                            <td>{{ taken_quiz.date|naturaltime }}</td>
+                            <td>{{ taken_quiz.percentage }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+                <div class="card-footer text-muted">
+                    სულ მონაწილეობა მიიღო: <strong>{{ total_taken_quizzes }}</strong>
+                    <strong><span style="font-size:15px" class="badge badge-pill badge-primary float-right">საშუალო ქულა: {{ quiz_score.average_score|default_if_none:0.0 }}</span></strong>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 {% endblock %}

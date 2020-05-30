@@ -6,8 +6,13 @@
 {% endblock %}
 
 {% block content %}
-  {% include 'classroom/students/_header.html' with active='new' %}
-  <p class="text-muted">
+
+    <div style="display: flex;">
+    <div>
+    {% include 'classroom/students/_header.html' with active='new' %}
+    </div>
+    <div style="width: 100%">
+      <p class="text-muted">
     საგნები:{% for subject in user.student.interests.all %} {{ subject.get_html_badge }}{% endfor %}
     <a href="{% url 'students:student_interests' %}"><small>(ინტერესების განახლება)</small></a>
   </p>
@@ -15,7 +20,7 @@
   <table class="table table-bordered mb-0" id="tb_quizlist" >
     <thead>
       <tr>
-        <th>ქვიზები</th>
+        <th>ქვიზები 11</th>
         <th class="d-none d-sm-table-cell">საგანი</th>
         <th class="d-none d-sm-table-cell">შეკითხვები</th>
         <th></th>
@@ -38,6 +43,9 @@
       {% endfor %}
     </tbody>
   </table>
+    </div>
+
+    </div>
 {% endblock %}
 
 {% block js %}

@@ -1,14 +1,25 @@
-<h2>ქვიზები</h2>
+<div style="margin-right: 15px; padding: 15px; border:1px; border-style:solid; border-color:gray; border-radius: 10px">
+    <h2>კატეგორია</h2>
+    <ul class="nav flex-column nav-pills">
+        <div>
+            <li class="nav-item">
+                <a class="nav-link{% if active == 'new' %} active{% endif %}" href="{% url 'students:quiz_list' %}">ახალი</a>
+            </li>
+        </div>
 
+        <div>
+            <li class="nav-item">
+                <a class="nav-link{% if active == 'taken' %} active{% endif %}"
+                   href="{% url 'students:taken_quiz_list' %}">ჩატარებული</a>
+            </li>
+        </div>
+        <div>
+            <li class="nav-item">
+                <a class="nav-link{% if active == 'students' %} active{% endif %}"
+                   href="{% url 'students:student_list' %}">სტუდენტები</a>
+            </li>
+        </div>
 
-<ul class="nav nav-tabs mb-3">
-  <li class="nav-item">
-    <a class="nav-link{% if active == 'new' %} active{% endif %}" href="{% url 'students:quiz_list' %}">ახალი</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link{% if active == 'taken' %} active{% endif %}" href="{% url 'students:taken_quiz_list' %}">ჩატარებული</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link{% if active == 'students' %} active{% endif %}" href="{% url 'students:student_list' %}">სტუდენტები</a>
-  </li>
-</ul>
+    </ul>
+</div>
+

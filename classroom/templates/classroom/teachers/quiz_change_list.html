@@ -1,39 +1,51 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    {% include 'classroom/teachers/_header.html' with active='students' %}
-  <h2 class="mb-3">ჩემი ქვიზები</h2>
-  <a href="{% url 'teachers:quiz_add' %}" class="btn btn-primary mb-3" role="button">ქვიზის დამატება</a>
-  <div class="card">
-    <table class="table mb-0">
-      <thead>
-        <tr>
-          <th>ქვიზი</th>
-          <th>საგანი</th>
-          <th>შეკითხვა</th>
-          <th>მონაწილეობა მიღებული</th>
-          <th>გაზიარება</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for quiz in quizzes %}
-          <tr>
-            <td class="align-middle"><a href="{% url 'teachers:quiz_change' quiz.pk %}">{{ quiz.name }}</a></td>
-            <td class="align-middle">{{ quiz.subject.get_html_badge }}</td>
-            <td class="align-middle">{{ quiz.questions_count }}</td>
-            <td class="align-middle">{{ quiz.taken_count }}</td>
-            <td> <a href="https://www.facebook.com/sharer/sharer.php?u=http://127.0.0.1:8000/students/quiz/{{ quiz.id}}/">Facebook</a></td>
-            <td class="text-right">
-              <a href="{% url 'teachers:quiz_results' quiz.pk %}" class="btn btn-primary">შეფასების ნახვა</a>
-            </td>
-          </tr>
-        {% empty %}
-          <tr>
-            <td class="bg-light text-center font-italic" colspan="5">თქვენ არ შეგიქმნიათ ჯერჯერობით არცერთი ქვიზი.</td>
-          </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
+    <div style="display: flex;">
+        <div>
+            {% include 'classroom/teachers/_header.html' with active='new' %}
+        </div>
+        <div>
+            <h2 class="mb-3">ჩემი ქვიზები</h2>
+            <a href="{% url 'teachers:quiz_add' %}" class="btn btn-primary mb-3" role="button">ქვიზის დამატება</a>
+            <div class="card">
+                <table class="table mb-0">
+                    <thead>
+                    <tr>
+                        <th>ქვიზი</th>
+                        <th>საგანი</th>
+                        <th>შეკითხვა</th>
+                        <th>მონაწილეობა მიღებული</th>
+                        <th>გაზიარება</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for quiz in quizzes %}
+                        <tr>
+                            <td class="align-middle"><a
+                                    href="{% url 'teachers:quiz_change' quiz.pk %}">{{ quiz.name }}</a></td>
+                            <td class="align-middle">{{ quiz.subject.get_html_badge }}</td>
+                            <td class="align-middle">{{ quiz.questions_count }}</td>
+                            <td class="align-middle">{{ quiz.taken_count }}</td>
+                            <td>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=http://127.0.0.1:8000/students/quiz/{{ quiz.id }}/">Facebook</a>
+                            </td>
+                            <td class="text-right">
+                                <a href="{% url 'teachers:quiz_results' quiz.pk %}" class="btn btn-primary">შეფასების
+                                    ნახვა</a>
+                            </td>
+                        </tr>
+                    {% empty %}
+                        <tr>
+                            <td class="bg-light text-center font-italic" colspan="5">თქვენ არ შეგიქმნიათ ჯერჯერობით
+                                არცერთი ქვიზი.
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 {% endblock %}
