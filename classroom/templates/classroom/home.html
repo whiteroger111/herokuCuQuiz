@@ -1,11 +1,9 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
-  <h2>მოგესალმებით ჩვენს საიტზე</h2>
-  <p class="lead">
-    თუ უკვე ხართ რეგისტრირებული <a href="{% url 'login' %}">შესვლა</a>. თუ არა,
-    შემოგვიერთდით <a href="{% url 'student_signup' %}">სტუდენტისთვის</a> ან <a href="{% url 'teacher_signup' %}">მასწავლებლისათვის</a>.
-  </p>
+  <h2 style="text-align: center">მოგესალმებით ჩვენს საიტზე</h2>
+    <img src="{% static 'img/quiz-time-removebg.png' %}" alt="Cu Quiz" style="border-radius: 5%; max-width: 100%; width: 55%; display: block;margin-left: auto; margin-right: auto;">
   <hr>
   <h3>შესახებ</h3>
   <p>

@@ -30,7 +30,7 @@
             </div>
             <div class="col-6 text-right">
               {% if user.is_authenticated %}
-                <p class="pt-3"><strong style="color: white; font-size: 65%">{{ user.username }}{% if user.is_student %} - {{user.student.score}}{% endif %}</strong> | <a href="{% url 'logout' %}">გამოსვლა</a>.</p>
+                <p id="username" class="pt-3"><strong style="color: white;">{{ user.username }}{% if user.is_student %} - {{user.student.score}}{% endif %}</strong> | <a href="{% url 'logout' %}">გამოსვლა</a>.</p>
               {% else %}
                 <a href="{% url 'login' %}" class="btn btn-light" role="button">შესვლა</a>
                 <a href="{% url 'signup' %}" class="btn btn-primary" role="button">რეგისტრაცია</a>
