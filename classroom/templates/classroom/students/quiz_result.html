@@ -3,18 +3,18 @@
 
 {% block content %}
 
-    <div style="display: flex;">
+    <div id = responsivediv>
         <div >
             {% include 'classroom/students/_header.html' with active='taken' %}
         </div>
     <br>
 
-        <div>
+        <div style="width: 100%">
             <h2>დასახელება: {{ quiz.name }}</h2>
             {{ quiz.subject.get_html_badge }}
 
             <div class="progress">
-                <div style="display: flex;" role="progressbar"
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
                      style="width: {{ percentage }}%" aria-valuenow="{{ percentage }}" aria-valuemin="0"
                      aria-valuemax="100">{{ percentage }}%
                 </div>

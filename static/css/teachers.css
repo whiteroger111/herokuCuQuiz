@@ -1,3 +1,9 @@
 body {
   background-color: #b0aac2;
 }
+
+@media only screen and (min-width: 770px) {
+  #responsivediv {
+    display: flex;
+  }
+}
