@@ -21,18 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a2095035-192b-4e58-aa4a-e3a0a0aadb3a" name="Default Changelist" comment="type fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CuQuizFinal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CuQuizFinal/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/quiz_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/quiz_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/quiz_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/quiz_result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/student_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/student_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/taken_quiz_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/taken_quiz_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_change_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_change_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/student_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/student_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/students.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/students.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/teachers.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/teachers.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
@@ -204,6 +196,7 @@
       <workItem from="1590585183746" duration="2644000" />
       <workItem from="1590786620722" duration="3529000" />
       <workItem from="1590830229917" duration="11873000" />
+      <workItem from="1590862076932" duration="2619000" />
     </task>
     <task id="LOCAL-00001" summary="type fix">
       <created>1590833879093</created>
@@ -228,6 +221,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -318,10 +312,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1590495472885" />
-    <state x="936" y="150" width="557" height="602" key="find.popup" timestamp="1590842076349">
+    <state x="936" y="150" width="557" height="602" key="find.popup" timestamp="1590862808684">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="936" y="150" width="557" height="602" key="find.popup/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590842076349" />
+    <state x="936" y="150" width="557" height="602" key="find.popup/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590862808684" />
     <state x="812" y="2" width="607" height="1013" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590495596843" />
     <state x="701" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1590356588099">
       <screen x="0" y="0" width="1920" height="1050" />

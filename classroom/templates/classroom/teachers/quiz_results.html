@@ -3,7 +3,7 @@
 {% load crispy_forms_tags humanize %}
 
 {% block content %}
-    <div id = responsivediv>
+    <div id=responsivediv>
         <div>
             {% include 'classroom/teachers/_header.html' with active='new' %}
         </div>
@@ -18,7 +18,7 @@
             </nav>
             <h2 class="mb-3">{{ quiz.name }} შეფასება</h2>
 
-            <div class="card">
+            <div class="card" style="overflow-x:auto;">
                 <table class="table mb-0">
                     <thead>
                     <tr>
@@ -39,10 +39,11 @@
                     {% endfor %}
                     </tbody>
                 </table>
-                <div class="card-footer text-muted">
-                    სულ მონაწილეობა მიიღო: <strong>{{ total_taken_quizzes }}</strong>
-                    <strong><span style="font-size:15px" class="badge badge-pill badge-primary float-right">საშუალო ქულა: {{ quiz_score.average_score|default_if_none:0.0 }}</span></strong>
-                </div>
+            </div>
+            <div id = responsivediv1 class="card-footer text-muted">
+                სულ მონაწილეობა მიიღო: <strong>{{ total_taken_quizzes }}</strong>
+                <strong><span style="font-size:15px"
+                              class="badge badge-pill badge-primary float-right">საშუალო ქულა: {{ quiz_score.average_score|default_if_none:0.0 }}</span></strong>
             </div>
         </div>
     </div>

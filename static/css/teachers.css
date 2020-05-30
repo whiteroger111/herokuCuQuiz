@@ -1,9 +1,23 @@
 body {
-  background-color: #b0aac2;
+    background-color: #b0aac2;
 }
 
-@media only screen and (min-width: 770px) {
-  #responsivediv {
-    display: flex;
-  }
+@media only screen and (min-width: 1000px) {
+    #responsivediv {
+        display: flex;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #responsivediv1 {
+        display: flex;
+        flex-wrap: wrap
+    }
 }
