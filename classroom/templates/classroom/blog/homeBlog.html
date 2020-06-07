@@ -11,7 +11,7 @@
         {% endif %}
     </div>
 
-    <div>
+    <div style="width: 100%">
     {% for post in posts %}
         <article class="media content-section">
             <img class="mr-3" src="{{ post.author.username|gravatar_url:50 }}"
