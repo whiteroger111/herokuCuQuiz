@@ -1,9 +1,15 @@
 from django.urls import include, path
 
-from .views import classroom, students, teachers
+from .views import classroom, students, teachers, blog
 
 urlpatterns = [
     path('', classroom.home, name='home'),
+    path('post/', blog.PostListView.as_view(), name='blog-home'),
+    path('user/<str:username>', blog.UserPostListView.as_view(), name='user-posts'),
+    path('post/<int:pk>', blog.PostDetailView.as_view(), name='post-detail'),
+    path('post/<int:pk>/update/', blog.PostUpdateView.as_view(), name='post-update'),
+    path('post/<int:pk>/delete/', blog.PostDeleteView.as_view(), name='post-delete'),
+    path('post/new/', blog.PostCreateView.as_view(), name='post-create'),
 
     path('students/', include(([
                                    path('', students.QuizListView.as_view(), name='quiz_list'),

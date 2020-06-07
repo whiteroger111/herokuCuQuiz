@@ -1,6 +1,8 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.utils.html import escape, mark_safe
+from django.urls import reverse
+from django.utils import timezone
 
 
 class User(AbstractUser):
@@ -80,3 +82,16 @@ class TakenQuiz(models.Model):
 class StudentAnswer(models.Model):
     student = models.ForeignKey(Student, on_delete=models.CASCADE, related_name='quiz_answers')
     answer = models.ForeignKey(Answer, on_delete=models.CASCADE, related_name='+')
+
+
+class Post(models.Model):
+    title = models.CharField("სათაური", max_length=100)
+    content = models.TextField("პოსტი")
+    date_posted = models.DateTimeField(default=timezone.now)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return reverse('post-detail', kwargs={'pk' : self.pk})

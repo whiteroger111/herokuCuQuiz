@@ -5,7 +5,7 @@ from django.contrib import admin
 import nested_admin
 
 # Register your models here.
-from .models import User, Subject, Quiz, Question, Answer, Student, TakenQuiz, StudentAnswer
+from .models import User, Subject, Quiz, Question, Answer, Student, TakenQuiz, StudentAnswer, Post
 
 
 class AnswerInline(nested_admin.NestedTabularInline):
@@ -40,3 +40,4 @@ admin.site.register(Answer)
 admin.site.register(Student, QuizTakerAdmin)
 admin.site.register(TakenQuiz)
 admin.site.register(StudentAnswer)
+admin.site.register(Post)

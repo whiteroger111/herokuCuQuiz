@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+    <div id=responsivediv>
+        <div>
+            {% if user.is_authenticated and user.is_teacher %}
+                {% include 'classroom/teachers/_header.html' with active='post-create' %}
+            {% else %}
+                {% include 'classroom/students/_header.html' with active='post-create' %}
+            {% endif %}
+        </div>
+
+        <div class="content-section" style="width: 100%">
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">პოსტის დამატება</legend>
+                    {{ form | crispy }}
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-info" type="submit">გამოქვეყნება</button>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

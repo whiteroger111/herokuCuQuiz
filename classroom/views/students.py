@@ -13,12 +13,10 @@ from django.views.generic import CreateView, ListView, UpdateView
 from django.views import View
 
 from ..decorators import student_required
-from ..forms import StudentInterestsForm, StudentSignUpForm, TakeQuizForm
+from ..forms import StudentInterestsForm, StudentSignUpForm, TakeQuizForm,CustomAuthenticationForm
 from ..models import Quiz, Student, TakenQuiz, Question
 
 from django.contrib.auth.views import LoginView, LogoutView
-
-from ..forms import CustomAuthenticationForm
 
 
 class CustomLoginView(LoginView):
