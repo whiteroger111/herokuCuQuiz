@@ -8,7 +8,7 @@ second_password_id = By.ID, 'id_password2'
 first_password_id = By.ID,'id_password1'
 confirm_registration_button_xpath = By.XPATH, "//button"
 confirm_login_button_xpath = By.XPATH, '//button[text()="სისტემაში შესვლა"]'
-im_student_register_xpath = By.XPATH, '//a[text()="მე ვარ სტუდენტი"]'
+im_student_register_xpath = By.XPATH, '//a[text()="მე ვარ მოსწავლე"]'
 im_teacher_register_xpath = By.XPATH, '//a[text()="მე ვარ მასწავლებელი"]'
 interest1_id =By.ID,"id_interests_1"
 interest3_id =By.ID,"id_interests_3"

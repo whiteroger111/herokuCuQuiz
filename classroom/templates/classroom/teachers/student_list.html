@@ -21,7 +21,7 @@
                     <div class="col-sm-6">
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" name='q' size="200" value='{{ request.GET.q }}'
-                                   placeholder="სტუდენტის ძებნა">
+                                   placeholder="მოსწავლის ძებნა">
                             <div class="input-group-append">
                                 <button class="btn btn-outline-secondary" type="submit">ძებნა</button>
                             </div>
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                 {% empty %}
-                    <div class="col-sm-6"><p class="text-warning">არცერთი სტუდენტი არ მოიძებნა</p></div>
+                    <div class="col-sm-6"><p class="text-warning">არცერთი მოსწავლე არ მოიძებნა</p></div>
                 {% endfor %}
             </div>
 

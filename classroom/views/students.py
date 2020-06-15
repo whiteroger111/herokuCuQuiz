@@ -36,7 +36,7 @@ class StudentSignUpView(CreateView):
     template_name = 'registration/signup_form.html'
 
     def get_context_data(self, **kwargs):
-        kwargs['user_type'] = 'სტუდენტი'
+        kwargs['user_type'] = 'მოსწავლე'
         return super().get_context_data(**kwargs)
 
     def form_valid(self, form):
@@ -91,7 +91,7 @@ class QuizResultsView(View):
         taken_quiz = TakenQuiz.objects.filter(student=request.user.student, quiz=quiz)
         if not taken_quiz:
             """
-            რომ არ ნახოს სტუდენტმა პასუხები ქვიზში მონაწილეობის გარეშე
+            რომ არ ნახოს მოსწავლემ პასუხები ქვიზში მონაწილეობის გარეშე
             """
             return render(request, '404.html')
         questions = Question.objects.filter(quiz=quiz)

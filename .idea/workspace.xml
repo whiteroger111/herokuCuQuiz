@@ -21,7 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="a2095035-192b-4e58-aa4a-e3a0a0aadb3a" name="Default Changelist" comment="type fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/students/student_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/students/student_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/quiz_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/student_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/student_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/views/students.py" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/views/students.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -201,6 +212,7 @@
       <workItem from="1591473474971" duration="4695000" />
       <workItem from="1591514222996" duration="5797000" />
       <workItem from="1591520566383" duration="383000" />
+      <workItem from="1592240517095" duration="3138000" />
     </task>
     <task id="LOCAL-00001" summary="type fix">
       <created>1590833879093</created>
@@ -266,22 +278,26 @@
     </state>
     <state x="609" y="418" key="FileChooserDialogImpl/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1591519487463" />
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590442097203" />
-    <state width="1877" height="180" key="GridCell.Tab.0.bottom" timestamp="1591520799217">
+    <state width="1877" height="180" key="GridCell.Tab.0.bottom" timestamp="1592242992953">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="180" key="GridCell.Tab.0.bottom/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1591520799217" />
-    <state width="1877" height="180" key="GridCell.Tab.0.center" timestamp="1591520799217">
+    <state width="1877" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1366.153.1366.738@0.0.1920.1050" timestamp="1592242992953" />
+    <state width="1877" height="180" key="GridCell.Tab.0.center" timestamp="1592242992952">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="180" key="GridCell.Tab.0.center/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1591520799217" />
-    <state width="1877" height="180" key="GridCell.Tab.0.left" timestamp="1591520799216">
+    <state width="1877" height="180" key="GridCell.Tab.0.center/0.0.1920.1050/-1366.153.1366.738@0.0.1920.1050" timestamp="1592242992952" />
+    <state width="1877" height="180" key="GridCell.Tab.0.left" timestamp="1592242992952">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="180" key="GridCell.Tab.0.left/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1591520799216" />
-    <state width="1877" height="180" key="GridCell.Tab.0.right" timestamp="1591520799217">
+    <state width="1877" height="180" key="GridCell.Tab.0.left/0.0.1920.1050/-1366.153.1366.738@0.0.1920.1050" timestamp="1592242992952" />
+    <state width="1877" height="180" key="GridCell.Tab.0.right" timestamp="1592242992953">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="180" key="GridCell.Tab.0.right/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1591520799217" />
+    <state width="1877" height="180" key="GridCell.Tab.0.right/0.0.1920.1050/-1366.153.1366.738@0.0.1920.1050" timestamp="1592242992953" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1590354426959">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
