@@ -7,23 +7,21 @@ from Tests.Pages.addQuizPage import AddQuizPage
 
 class Test_Add_Quiz:
     driver = webdriver.Chrome('../../chromedriver/chromedriver.exe')
-    question_dict = {"შენ მოჰკალი ძერა ?" : ['კი','არა','შეიძლება','არაა გამორიცხული','თუ ბირ ორ ნოთ თუ ბი'],
-                     "რამდენია + 2 + 2 ?" : ['15','ტრაკი','42','არაა გამორიცხული','მოდი აქააააა'],
-                     "ჭიჭიკია ეკითხება სამურაი რონინს?" : ['ჰა','ურევ','ტრაკი','დიიდ ',' ბი'],
-                     "ვინაა სანტა კლაუსი?" : ['აფიონი','ჰაჰაჰაჰა','ფასდფ','ალკაპფონე','ნოთ თუ ბი'],
-                     "შევარდნაძეს?" : ['კი','არა','ტრაკი','ტრაკი','ტრაკი'],}
+    question_dict = {"5 x 5 ?" : ['25','24','0','7','6'],
+                     "10 * 0" : ['0','4','2','7','8'],
+                     "3^3?" : ['27','4','2','0','5'],}
 
     def test_quiz_add(self):
         self.driver.maximize_window()
         self.driver.get('http://127.0.0.1:8000/')
         loginP = LoginPage(self.driver)
         loginP.click_on_login_button()
-        loginP.enter_username('Nika1')
-        loginP.enter_password('ZARNzarn123')
+        loginP.enter_username('teacher')
+        loginP.enter_password('teacher')
         loginP.confirm_login_button()
         quizP = AddQuizPage(self.driver)
         quizP.go_to_quiz_add_page()
-        quizP.enter_quiz_name("TEST QUIZ")
+        quizP.enter_quiz_name("TEST QUIZ2")
         quizP.pick_subject()
         quizP.save_quiz_name_and_subject()
         for i in range(len(self.question_dict)):
@@ -35,6 +33,7 @@ class Test_Add_Quiz:
             quizP.save_quiz_name_and_subject()
             anwser_inputs = self.driver.find_elements_by_xpath('//input[@class="textinput textInput form-control"]')
             for j in range(len(anwser_inputs)):
+                time.sleep(1)
                 anwser_inputs[j].send_keys(value_list[i][j])
             quizP.choose_correct_anwser()
             quizP.add_answers_all()

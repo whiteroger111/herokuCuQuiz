@@ -5,7 +5,7 @@ from Tests.Pages.loginPage import LoginPage
 
 
 class Test_Resgistration:
-    driver = webdriver.Chrome(r'C:\Users\white\Desktop\chromedriver_win32\chromedriver.exe')
+    driver = webdriver.Chrome('../../chromedriver/chromedriver.exe')
     def test_registartion(self):
         self.driver.maximize_window()
         self.driver.get('http://127.0.0.1:8000/')
