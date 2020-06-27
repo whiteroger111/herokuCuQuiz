@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@p_wcmc_2&zdjq$-4xf0-2zq6#48m0oze7(ugt#)jc=7mrost8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.1.10', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['192.168.1.10', '127.0.0.1', 'localhost','cu-quiz-io.herokuapp.com']
 
 # Application definition
 
