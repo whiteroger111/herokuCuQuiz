@@ -145,3 +145,5 @@ MESSAGE_TAGS = {
 # Third party apps configuration
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
