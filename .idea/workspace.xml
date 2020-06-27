@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2095035-192b-4e58-aa4a-e3a0a0aadb3a" name="Default Changelist" comment="type fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/AddQuiz/test_add_quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/AddQuiz/test_add_quiz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/RegistrationTest/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/RegistrationTest/test_registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python38-32" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -206,6 +204,7 @@
       <workItem from="1592240517095" duration="3138000" />
       <workItem from="1592508417737" duration="328000" />
       <workItem from="1592508777359" duration="1665000" />
+      <workItem from="1593255523018" duration="1844000" />
     </task>
     <task id="LOCAL-00001" summary="type fix">
       <created>1590833879093</created>
@@ -318,11 +317,11 @@
     </state>
     <state x="461" y="167" key="SettingsEditor/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590530473619" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592509016368" />
-    <state x="656" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1592508779306">
+    <state x="656" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1593255522945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="349" key="com.intellij.ide.util.TipDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590526954602" />
-    <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592508779306" />
+    <state x="656" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593255522945" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590314267839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
