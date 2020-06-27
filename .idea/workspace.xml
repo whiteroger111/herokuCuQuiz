@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2095035-192b-4e58-aa4a-e3a0a0aadb3a" name="Default Changelist" comment="type fix" />
+    <list default="true" id="a2095035-192b-4e58-aa4a-e3a0a0aadb3a" name="Default Changelist" comment="type fix">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +204,7 @@
       <workItem from="1592240517095" duration="3138000" />
       <workItem from="1592508417737" duration="328000" />
       <workItem from="1592508777359" duration="1665000" />
-      <workItem from="1593255523018" duration="2040000" />
+      <workItem from="1593255523018" duration="2710000" />
     </task>
     <task id="LOCAL-00001" summary="type fix">
       <created>1590833879093</created>
@@ -247,10 +250,10 @@
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1590352732070" />
     <state x="205" y="289" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592508969583" />
-    <state x="674" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590495438340">
+    <state x="674" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593274846646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="674" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590495438340" />
+    <state x="674" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593274846646" />
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590419148607">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
