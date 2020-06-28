@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2095035-192b-4e58-aa4a-e3a0a0aadb3a" name="Default Changelist" comment="type fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classroom/templates/classroom/teachers/question_change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/classroom/templates/classroom/teachers/question_change_form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +205,7 @@
       <workItem from="1592508417737" duration="328000" />
       <workItem from="1592508777359" duration="1665000" />
       <workItem from="1593255523018" duration="5702000" />
-      <workItem from="1593342209717" duration="2163000" />
+      <workItem from="1593342209717" duration="3494000" />
     </task>
     <task id="LOCAL-00001" summary="type fix">
       <created>1590833879093</created>
@@ -330,11 +331,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1590495472885" />
-    <state x="812" y="2" width="607" height="1013" key="find.popup" timestamp="1592510429834">
+    <state x="812" y="2" width="607" height="1013" key="find.popup" timestamp="1593345881075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="793" y="14" width="1015" height="996" key="find.popup/-1366.153.1366.738/0.0.1920.1050@0.0.1920.1050" timestamp="1591516197011" />
-    <state x="812" y="2" width="607" height="1013" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592510429834" />
+    <state x="812" y="2" width="607" height="1013" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593345881075" />
     <state x="701" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1590356588099">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
